@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="403dp">
+
+        <LinearLayout
+            android:id="@+id/scanid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/registration"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text="REGISTRATION" />
+
+            <TextView
+                android:id="@+id/t_first_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text="First Name" />
+
+            <EditText
+                android:id="@+id/e_first_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="First Name" />
+
+            <TextView
+                android:id="@+id/t_last_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="LastName" />
+
+            <EditText
+                android:id="@+id/e_last_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/t_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text="Password" />
+
+            <EditText
+                android:id="@+id/e_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/t_repassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text="Confirm Password" />
+
+            <EditText
+                android:id="@+id/e_repassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/t_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Phone" />
+
+            <EditText
+                android:id="@+id/e_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Phonenumber"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/t_email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Email" />
+
+            <EditText
+                android:id="@+id/e_email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/t_year"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:text="Year" />
+
+            <Spinner
+                android:id="@+id/s_year"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Year"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/t_sapid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SAP ID" />
+
+            <EditText
+                android:id="@+id/e_sapid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="SAP ID"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/t_college_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="College Name" />
+
+            <Spinner
+                android:id="@+id/s_college_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="College Name" />
+
+            <TextView
+                android:id="@+id/t_course"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Course" />
+
+            <Spinner
+                android:id="@+id/s_course"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Course" />
+
+            <TextView
+                android:id="@+id/t_stream"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Stream" />
+
+            <Spinner
+                android:id="@+id/s_stream"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="Spinner" />
+
+            <Button
+                android:id="@+id/b_scanid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Scan ID"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/b_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Register"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/t_login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text="Login" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
